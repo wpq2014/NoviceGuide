@@ -85,6 +85,7 @@ public class NoviceGuide extends FrameLayout {
 
         canvas.drawColor(bgColor);
 
+        // https://www.cnblogs.com/ai-developers/p/4413585.html
         contentParent.getGlobalVisibleRect(contentRect);
         int topMargin = contentRect.top;
 
